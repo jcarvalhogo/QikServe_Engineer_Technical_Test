@@ -14,4 +14,4 @@ export {default as Header} from './Header';
 export {default as Footer} from './Footer';
 
 
-export {Box, Typography, TextField} from '@mui/material'
+export {Box, Typography, TextField, Avatar} from '@mui/material'
