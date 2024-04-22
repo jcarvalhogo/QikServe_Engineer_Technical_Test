@@ -1,0 +1,1 @@
+java -jar wiremock-jre8-standalone-2.31.0.jar --port 8081 --enable-stub-cors true --enable-browser-proxying
