@@ -6,9 +6,9 @@ import {useEffect} from "react";
 function App() {
 
   useEffect(() => {
-   /* ProductsResource.getAllId('Dwt5F7KAhi').then(response => {
-      console.log(response.data.promotions);
-    });*/
+    /* ProductsResource.getAllId('Dwt5F7KAhi').then(response => {
+       console.log(response.data.promotions);
+     });*/
   });
 
   return (
