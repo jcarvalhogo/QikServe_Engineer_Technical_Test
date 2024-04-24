@@ -1,21 +1,8 @@
 import Service from './service'
+import {IProductDTO, IPromotion} from '../types/ShareTypes'
 
 const endpoint = '/products'
 
-
-interface IPromotion {
-  "id": string,
-  "type": string,
-  "required_qty": number,
-  "price": number
-}
-
-interface IProductDTO {
-  "id": string,
-  "name": string,
-  "price": number,
-  "promotions": IPromotion[],
-}
 
 const getAll = () => {
   return Service.http.get <IProductDTO[]>(endpoint);

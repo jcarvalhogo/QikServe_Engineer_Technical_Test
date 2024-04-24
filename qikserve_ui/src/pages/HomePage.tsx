@@ -1,6 +1,6 @@
 import {ReactElement} from "react";
 import {Header, ScaffoldLayout, Footer} from '../components/DesignSystem'
-import BodyPage from "./BodyPage";
+import BodyWidget from "./widgets/BodyWidget";
 
 
 export default class HomePage {
@@ -8,8 +8,7 @@ export default class HomePage {
     return (
       new ScaffoldLayout({
         header: new Header().build(),
-        body: <BodyPage></BodyPage>,
-        footer: new Footer().build()
+        body: <BodyWidget/>,
       }).build()
     )
   }
